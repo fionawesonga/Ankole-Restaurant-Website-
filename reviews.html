@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reviews</title>
+    <link rel="stylesheet" href="reviews.css">
+    <script src="https://kit.fontawesome.com/1df1736bb2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="reviews-container">
+        <div class="logo">
+            <img src="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c0b0524cdc940f7455af22_logo.svg"
+                alt="">
+        </div>
+        <h1>Reviews</h1>
+        <div class="text">
+            <i class="fa-solid fa-quote-left"></i>
+            <P>
+                This place is run by educated,
+                innovative &creative people!
+                The architectural layout,
+                seating, ambience,<br> lighting,
+                cutlery: servings, design;
+                has been impeccably well
+                thought out! Even thewashrooms
+                were<br> excellent!The food was AWESOME!
+                This is surprising consideringthe fact
+                we were there on a Saturday night<br> & they
+                almost had no space!We were extremely well
+                serviced too!Rare to find such finesse in
+                Kenya! You<br> must go visitthem!</P>
+            <span>
+                irfan virji<br>
+            </span>
+
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+
+        <div class="text">
+            <i class="fa-solid fa-quote-left"></i>
+
+            <P>
+                We had an amazing time for my brothersbirthday....
+                Food is great, amounts aregenerous, the price
+                is<br> reasonable, the staff are superb will definitely
+                bereferring guys there
+            </P>
+            <span>
+                Sylvia Wanjohi
+            </span>
+
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+
+
+        <div class="text">
+            <i class="fa-solid fa-quote-left"></i>
+
+            <P>
+                Ankole grill is a one of a kind
+                gem located at theheart of Kilimani.
+                Good vibes and inshallah is what you're<br>
+                guaranteed to get atthis place.
+            </P>
+
+            <span>
+                Davis Tanyassis< </span>
+
+                    <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <button class="next-button display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="next-button display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    <div class="navigation">
+        <nav class="nav-bar">
+            <div class="dropdown">
+                <div class="fa-bars">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Home </a>
+                    <a href="#"> Our Story </a>
+                    <a href="#"> Menu </a>
+                    <a href="#"> Reviews </a>
+                    <a href="#"> Careers </a>
+                    <a href="#"> Events </a>
+                    <a href="#"> Gallery </a>
+                    <a href="#"> Live </a>
+                    <a href="#"> Contacts</a>
+                </div>
+            </div>
+
+            <a href=""><i class="fa-solid fa-clock"></i></a>
+            <a href="Index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="events.html">Events</a>
+            <a href="live.html">Live</a>
+            <a href="contacts.html">Contacts</a>
+            <button>
+                <a href="reservations.html">Reservations</a>
+            </button>
+
+        </nav>
+    </div>
+
+    <div class="whatsapp_icon">
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <div class="social_icons">
+        <div class="insta_icon">
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <div class="fb_icon">
+            <i class="fa-brands fa-facebook-f"></i>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("text");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>

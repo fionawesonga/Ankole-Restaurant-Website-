@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: typewriter;
+    src: url(fonts/TypewriterSerial\ Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+.page-left-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/menuimage.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.page-left-content img {
+    width: 20%;
+    margin: 10% 40%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text p {
+    color: white;
+    font-size: 37px;
+}
+
+.text span {
+    color: #B34215;
+    font-size: 60px;
+    font-family: typewriter;
+
+}
+
+.right_menu_content {
+    width: 50%;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    overflow: scroll;
+    height: 102%;
+    font-family: typewriter;
+    overflow-y: auto;
+}
+
+.food_ptions {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    align-items: center;
+    height: 7vh;
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+
+
+}
+
+.food_ptions a {
+    text-decoration: none;
+    color: rgb(143, 151, 140);
+}
+
+.right_menu_text {
+    margin-left: 6%;
+}
+
+.breakfast-text p {
+    color: rgb(143, 151, 140);
+}
+
+.breakfast-text h1 {
+    color: white;
+    margin-top: 20%;
+}
+
+.breakfast_category {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #B34215;
+}
+
+.breakfast_list {
+    display: flex;
+    gap: 50%;
+}
+
+.breakfast_list ul {
+    list-style: none;
+    line-height: 35px;
+}
+
+.breakfast {
+    display: flex;
+    margin-top: 7%;
+    gap: 5%;
+}
+
+#breakfast_price {
+    color: white;
+    margin-left: 5%;
+}
+
+#egg_price {
+    color: white;
+    margin-left: 5%;
+}
+
+#amount {
+    margin-left: 23%;
+    color: white;
+}
+
+#amount_shs {
+    color: white;
+    margin-left: 5%;
+}
+
+.price p {
+    color: white;
+}
+
+.breakfast img {
+    width: 10%;
+}
+
+.breakfast p {
+    color: rgb(100, 100, 100);
+}
+
+.breakfast h2 {
+    font-weight: lighter;
+}
+
+.food {
+    margin-top: 12%;
+    font-weight: lighter;
+}
+
+.soup {
+    margin-top: 6%;
+    font-size: 25px;
+    color: #B34215;
+    margin-bottom: 3%;
+}
+
+.soup_description {
+    display: flex;
+    gap: 50%;
+}
+
+#soup_price {
+    margin-left: 4%;
+}
+
+.salads-heading {
+    margin-top: 10%;
+    font-size: 25px;
+    color: #B34215;
+}
+
+.salads {
+    display: flex;
+    margin-top: 7%;
+    gap: 5%;
+}
+
+#price {
+    color: white;
+    margin-left: 5%;
+}
+
+.breakfast_price {
+    color: white;
+}
+
+#shs {
+    color: white;
+    margin-left: 16%;
+}
+
+.salads img {
+    width: 10%;
+}
+
+.salads p {
+    color: rgb(100, 100, 100);
+}
+
+.salads h2 {
+    font-weight: lighter;
+}
+
+.drinks-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 80%;
+    margin-top: 7%;
+}
+
+.drinks-heading h1 {
+    font-weight: lighter;
+}
+
+.drinks-heading span {
+    font-size: 22px;
+    margin-top: 2%;
+    color: #B34215;
+}
+
+.drinks {
+    display: flex;
+    gap: 67%;
+}
+
+.juice_list ul {
+    list-style: none;
+    line-height: 35px;
+}
+
+.juice_price_list ul {
+    list-style: none;
+    line-height: 35px;
+}
+
+.cocktails-heading {
+    margin-top: 5%;
+    font-size: 22px;
+    color: #B34215;
+}
+
+.cocktails {
+    display: flex;
+    margin-top: 7%;
+    gap: 5%;
+}
+
+.cocktails img {
+    width: 10%;
+}
+
+.cocktails p {
+    color: rgb(100, 100, 100);
+}
+
+#drink_price {
+    color: white;
+    margin-left: 10%;
+}
+
+#drink_amount {
+    color: white;
+}
+
+#ksh {
+    color: white;
+    margin-left: 29%;
+}
+
+
+
+
+
+
+
+.nav-bar {
+    position: fixed;
+    margin-top: 41%;
+    background-color: rgb(9, 10, 10);
+    width: 47%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    border: none;
+    border-radius: 70px;
+    margin-left: 1%;
+}
+
+.nav-bar i {
+    font-size: 35px;
+    color: rgb(80, 80, 80);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: poppins;
+}
+
+.nav-bar button {
+    background-color: rgb(115, 115, 115);
+    border: none;
+    border-radius: 40px;
+    padding: 18px 28px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: -47vh;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,0 +1,198 @@
+@font-face {
+    font-family: typewriter;
+    src: url(fonts/TypewriterSerial\ Regular.ttf);
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 3%;
+}
+
+.reviews-container {
+    font-family: typewriter;
+}
+
+.reviews-container h1 {
+    font-size: 50px;
+    margin-left: 45%;
+    color: white;
+}
+
+.reviews {
+    display: none;
+    padding: 20px;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    color: white;
+    position: relative;
+
+}
+
+.fa-quote-left {
+    font-size: 50px;
+    color: rgb(179, 66, 21);
+    margin-left: -50%;
+}
+
+.fa-quote-right {
+    font-size: 50px;
+    color: rgb(179, 66, 21);
+    margin-left: 50%;
+}
+
+.nav-bar {
+    position: fixed;
+    background-color: rgb(9, 10, 10);
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-left: 23%;
+    border: none;
+    border-radius: 70px;
+    margin-top: 11%;
+}
+
+.symbol_icons {
+    color: rgb(57, 57, 57);
+    font-size: 50px;
+    margin-top: -30%;
+    display: flex;
+    justify-content: center;
+    row-gap: 60%;
+}
+
+.nav-bar i {
+    font-size: 35px;
+    color: rgb(80, 80, 80);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: poppins;
+}
+
+.nav-bar button {
+    background-color: rgb(115, 115, 115);
+    border: none;
+    border-radius: 40px;
+    padding: 18px 28px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: -47vh;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.social_icons {
+    position: absolute;
+    width: 40%;
+    top: 5%;
+    left: 95%;
+    display: flex;
+    gap: 3%;
+    color: rgb(71, 66, 59);
+}
+
+.insta_icon {
+    border: solid 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb_icon {
+    border: solid 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-button {
+    position: absolute;
+    top: 45%;
+    border: none;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.display-left {
+    left: 0;
+}
+
+.display-right {
+    left: -50%;
+    background-color: aqua;
+}
+
+.whatsapp_icon {
+    position: absolute;
+    top: 87%;
+    left: 95%;
+    width: 70px;
+    height: 70px;
+    font-size: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(71, 66, 59);
+    background-color: rgb(15, 15, 15);
+    border-radius: 60px;
+}

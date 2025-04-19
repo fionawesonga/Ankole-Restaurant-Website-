@@ -1,0 +1,206 @@
+@font-face {
+  font-family: typewriter;
+  src: url(fonts/TypewriterSerial\ Regular.ttf);
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.nav-bar {
+  position: absolute;
+  margin-top: -6%;
+  background-color: rgb(9, 10, 10);
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  margin-left: 20%;
+  border: none;
+  border-radius: 70px;
+}
+
+.nav-bar i {
+  font-size: 35px;
+  color: rgb(80, 80, 80);
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: poppins;
+}
+
+.nav-bar button {
+  background-color: rgb(115, 115, 115);
+  border: none;
+  border-radius: 40px;
+  padding: 18px 28px;
+  font-size: 20px;
+  color: white;
+
+}
+
+.karibu-section {
+  width: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/reservations.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+
+
+}
+
+.reservations {
+  display: flex;
+}
+
+.karibu-section img {
+  position: absolute;
+  margin-top: 5%;
+  width: 10%;
+  margin-left: 17%;
+}
+
+.text span {
+  font-size: 70px;
+  color: rgb(157, 58, 19);
+  font-family: typewriter;
+
+}
+
+.text p {
+  font-size: 50px;
+  font-family: typewriter;
+  color: white;
+
+}
+
+.text {
+  color: rgb(71, 66, 59);
+  margin-left: 10%;
+  line-height: 0.5;
+  margin-top: 17%;
+  text-align: center;
+  position: absolute;
+
+
+}
+
+.fa-bars {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: -47vh;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.reservations-form {
+  padding: 66px 15px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(5, 5, 5);
+  font-family: typewriter;
+  border: none;
+  box-shadow: 13px 15px 15px -8px rgb(189, 189, 189);
+
+}
+
+.reservations-form input {
+  padding: 16px 15px;
+  width: 84%;
+  border: solid 1px rgb(97, 97, 97);
+  margin: 20px 0;
+  color-scheme: dark;
+
+}
+
+select {
+  width: 87%;
+  padding: 16px 15px;
+  border: solid 1px rgb(97, 97, 97);
+  margin: 20px 0;
+  background-color: rgb(23, 23, 23);
+  color: rgb(153, 153, 153);
+}
+
+input:focus {
+  outline: none;
+  border: green 1px solid;
+}
+
+select:focus {
+  outline: none;
+  border: rgb(88, 88, 223) 1px solid;
+}
+
+.reservations-form button {
+  padding: 25px 12px;
+  margin: 30px 0;
+  width: 87%;
+  background: none;
+  border: none;
+  background-color: rgb(242, 213, 165);
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.reservations-form button:hover {
+  background-color: rgb(155, 128, 84);
+}
+
+.reservations-form label {
+  float: left;
+  color: white;
+  margin-left: 7%;
+}
+
+.whatsapp_icon {
+  position: absolute;
+  top: 91%;
+  left: 96%;
+  width: 70px;
+  height: 70px;
+  font-size: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px rgb(71, 66, 59);
+  background-color: rgb(15, 15, 15);
+  border-radius: 60px;
+}

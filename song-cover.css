@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/live2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200vh;
+    font-family: poppins;
+    position: relative;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+.text h1 {
+    font-family: poppins;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20% 30%;
+}
+
+.text span {
+    font-size: 75px;
+}
+
+.nav-bar {
+    position: absolute;
+    margin-top: -54%;
+    background-color: rgb(9, 10, 10);
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    margin-left: 23%;
+    border: none;
+    border-radius: 70px;
+}
+
+.nav-bar i {
+    font-size: 35px;
+    color: rgb(80, 80, 80);
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: poppins;
+}
+
+.nav-bar button {
+    background-color: rgb(115, 115, 115);
+    border: none;
+    border-radius: 40px;
+    padding: 18px 28px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: -47vh;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
