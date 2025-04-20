@@ -200,3 +200,67 @@ body {
     background-color: rgb(15, 15, 15);
     border-radius: 60px;
 }
+@media only screen and (max-width: 430px){
+    body{
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+    height: auto;
+    box-sizing: border-box;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .text{
+        line-height: 50px;
+        margin-top: 80%;
+        margin-left: 32%;
+    }
+    .nav-bar{
+        position: fixed;
+        width: 60%;
+        height: 7vh;
+        gap: 8%;
+        margin-left: 20%;
+        margin-top: -90%;
+     
+    }
+    .nav-bar a {
+        font-size: 10px;
+    }
+    .nav-bar i {
+        font-size: 20px;
+        margin-left: 2%;
+    }
+    .logo img {
+        width: 60%;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+
+    .nav-links a:not(home,menu,reviews,events,live,contacts){
+        display: none;
+    }
+    .whatsapp_icon {
+        margin-left: -15%;
+        margin-top: -40%;
+        position: fixed;
+    }
+    .nav-bar button{
+        padding: 8px 8px;
+    }
+    /* .live{
+        display: flex;
+        flex-direction: column;
+    } */
+    /* .acoustic-fadhile,.acoustic-jack ,.acoustic-them{
+        /* width: 50%;
+        margin-top: 100%;
+        position: absolute;
+        margin-left: -40%;
+        gap: 50%; */
+        /* display: flex; */
+    } 

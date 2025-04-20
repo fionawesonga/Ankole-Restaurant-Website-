@@ -40,7 +40,7 @@ body {
 }
 
 
-.home-page .logo:nth-child(1) {
+.logo:nth-child(1) {
     animation-delay: 0s;
     background-image: url(images/welcome2image.jpg);
 
@@ -197,4 +197,61 @@ body {
     border: solid 1px rgb(71, 66, 59);
     background-color: rgb(15, 15, 15);
     border-radius: 60px;
+}
+@media only screen and (max-width: 430px){
+    body{
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    box-sizing: border-box;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .title h1 {
+        font-size: 50px;
+        margin-top: 30%;
+    }
+    .nav-bar{
+        width: 60%;
+        height: 7vh;
+        gap: 8%;
+        margin-left: 20%;
+        margin-top:188%;
+     
+    }
+    .nav-bar a {
+        font-size: 10px;
+    }
+    .nav-bar i {
+        font-size: 20px;
+        margin-left: 2%;
+    }
+    .logo img {
+        width: 60%;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+   
+    .nav-links a:not(home,menu,reviews,events,live,contacts){
+        display: none;
+    }
+    .whatsapp_icon {
+        margin-left: -15%;
+        margin-top: -20%;
+    }
+    .nav-bar button{
+        padding: 8px 8px;
+    }
+    .social_icons {
+        width: 70px;
+        position: absolute;
+        top: 5vh;
+        left: 95vw;
+        margin-left: -15%;
+    }
 }
