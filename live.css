@@ -121,8 +121,8 @@ body {
 }
 
 .nav-bar {
-    position: absolute;
-    margin-top: -8%;
+    position: fixed;
+    margin-top: -18%;
     background-color: rgb(9, 10, 10);
     width: 50%;
     height: 100px;
@@ -200,67 +200,92 @@ body {
     background-color: rgb(15, 15, 15);
     border-radius: 60px;
 }
-@media only screen and (max-width: 430px){
-    body{
-    margin: 0;
-    max-width: 100%;
-    width: 100%;
-    /* overflow-x: hidden; */
-    height: auto;
-    box-sizing: border-box;
+
+@media only screen and (max-width: 430px) {
+    body {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+        /* overflow-x: hidden; */
+        height: auto;
+        box-sizing: border-box;
     }
-    *{
+
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    .text{
+
+    .text {
         line-height: 50px;
         margin-top: 80%;
         margin-left: 32%;
     }
-    .nav-bar{
+
+    .nav-bar {
         position: fixed;
         width: 60%;
         height: 7vh;
         gap: 8%;
         margin-left: 20%;
         margin-top: -90%;
-     
+
     }
+
     .nav-bar a {
         font-size: 10px;
     }
+
     .nav-bar i {
         font-size: 20px;
         margin-left: 2%;
     }
+
     .logo img {
         width: 60%;
         margin-left: 25%;
         margin-top: 10%;
     }
 
-    .nav-links a:not(home,menu,reviews,events,live,contacts){
+    .nav-links a:not(home, menu, reviews, events, live, contacts) {
         display: none;
     }
+
     .whatsapp_icon {
         margin-left: -15%;
         margin-top: -40%;
         position: fixed;
     }
-    .nav-bar button{
+
+    .nav-bar button {
         padding: 8px 8px;
     }
-    /* .live{
+
+    .live {
         display: flex;
         flex-direction: column;
-    } */
-    /* .acoustic-fadhile,.acoustic-jack ,.acoustic-them{
-        /* width: 50%;
-        margin-top: 100%;
+    }
+
+    .acoustic-text {
+        margin-top: 110%;
+    }
+
+    .acoustic-fadhile img,
+    .acoustic-jack img,
+    .acoustic-them img {
+        width: 50%;
+        margin-top: 110%;
         position: absolute;
-        margin-left: -40%;
-        gap: 50%; */
-        /* display: flex; */
-    } 
+        margin-left: -50%;
+        gap: 50%;
+
+    }
+
+    .acoustic-fadhile .acoustic-fadhile,
+    .acoustic-jack,
+    .acoustic-them {
+        margin-top: 110%;
+        display: flex;
+    }
+}

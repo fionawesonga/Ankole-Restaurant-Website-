@@ -60,7 +60,7 @@ body {
   font-family: typewriter;
   font-size: 20px;
   width: 20%;
-  height: 35vh;
+  height: 36vh;
   border: solid 1px white;
   color: white;
   padding-left: 2%;
@@ -124,6 +124,7 @@ body {
   top: 5%;
   left: 95%;
   display: flex;
+  width: 4%;
   gap: 3%;
   color: rgb(71, 66, 59);
 }
@@ -163,92 +164,109 @@ body {
   background-color: rgb(15, 15, 15);
   border-radius: 60px;
 }
-  @media only screen and (max-width: 430px) {
-    body{
-      font-size: 14px;
-      padding: 10px;
-      width: 100%;
-      height: auto;
-    }
-.contacts{
-  display: block;
-  padding: 10px;
-}
-.kitisuru-contacts,.kilimani-contacts{
-  margin-bottom: 20px;
-  text-align: center;
-}
-.kitisuru-contacts h1,.kilimani-contacts h1{
-  font-size: 1.2em;
-  margin-bottom: 10px;
-}
-.kitisuru-contacts p,.kilimani-contacts p{
-  font-size: 0.9em;
-  margin-bottom: 10px;
-}
-#maps{
-  word-wrap: break-word;
-  font-family: 0.8em;
-}
-.nav-bar{
-  /* display: none; */
-  margin-left: 0;
-width: 20%;
-font-size: 15px;
-  margin-top: -25%;
-}
-.dropdown{
-  display: block;
-  margin: 10px;
-}
-.dropdown-content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  background-color: #444;
-  width: 100%;
-}
-.dropdown-content a{
-  padding: 12px;
-  color: white;
-  text-align: center;
-  width: 100%;
-}
-.whatsapp_icon{
-  right: 10px;
-  bottom: 10px;
-  font-size: 20px;
-}
-.social_icons{
-  left: 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  bottom: 10px;
-}
-.social_icons i{
-  font-size: 18px;
-}
-.nav-bar button{
-  padding: 6px 12px;
-  font-size: 12px;
-}
-.contacts img{
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-}
 
+@media only screen and (max-width: 430px) {
+  body {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    height: auto;
+    box-sizing: border-box;
+  }
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-
-
-
-
-
-
+  .kitisuru-contacts h1,
+  .kilimani-contacts h1 {
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 30%;
 
   }
+
+  .contacts_info {
+    display: block;
+  }
+
+  .nav-bar {
+    width: 60%;
+    height: 7vh;
+    gap: 8%;
+    margin-left: 20%;
+    margin-top: -30%;
+    position: fixed;
+
+  }
+
+  .nav-bar a {
+    font-size: 10px;
+  }
+
+  .nav-bar i {
+    font-size: 20px;
+    margin-left: 2%;
+  }
+
+  .contacts img {
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+
+  .nav-links a:not(home, menu, reviews, events, live, contacts) {
+    display: none;
+  }
+
+  .whatsapp_icon {
+    margin-left: -20%;
+    margin-top: -25%;
+    position: fixed;
+  }
+
+  .nav-bar button {
+    padding: 8px 8px;
+  }
+
+  .social_icons {
+    width: 70px;
+    position: absolute;
+    top: 1vh;
+    left: 95vw;
+    margin-left: -15%;
+  }
+
+  .kitisuru-contacts {
+    position: absolute;
+    font-family: typewriter;
+    font-size: 20px;
+    width: 70%;
+    height: 45vh;
+    border: solid 1px white;
+    color: white;
+    padding-left: 2%;
+    line-height: 160%;
+    overflow-x: scroll;
+    margin-top: -1%;
+
+  }
+
+  .kilimani-contacts {
+    position: absolute;
+    margin-top: 110%;
+    margin-left: 20%;
+    font-family: typewriter;
+    font-size: 20px;
+    width: 70%;
+    height: 47vh;
+    border: solid 1px white;
+    color: white;
+    padding-left: 2%;
+    line-height: 160%;
+
+  }
+}
