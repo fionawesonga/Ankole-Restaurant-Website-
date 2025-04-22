@@ -10,7 +10,7 @@ body {
 
 .nav-bar {
   position: absolute;
-  margin-top: -5%;
+  margin-top: -7%;
   background-color: rgb(9, 10, 10);
   width: 50%;
   height: 100px;
@@ -203,93 +203,87 @@ select:focus {
   background-color: rgb(15, 15, 15);
   border-radius: 60px;
 }
-
 @media only screen and (max-width: 430px) {
   body {
-    margin: 0;
-    max-width: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    height: auto;
-    box-sizing: border-box;
-  }
-
-  .menu-page {
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  .text {
-    align-items: center;
-    line-height: 55px;
-    margin-top: 35%;
-    text-align: center;
-    justify-content: center;
-
-  }
-
-  .kitisuru-menu,
-  .kilimani-menu {
-    width: 100%;
-    height: 50vh;
-    box-sizing: border-box;
+      margin: 0;
+      max-width: 100%;
+      width: 100%;
+      overflow-x: hidden;
+      height: auto;
+      box-sizing: border-box;
+      overflow-y: auto;
   }
 
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
   }
+  .karibu-section{
+    width: 100%;
+    height: 50vh;
 
-  #kilimani {
-    margin-left: -2%;
-
+  }
+  .reservations-form{
+    width: 100%;
+  }
+  .text{
+    line-height: 35px;
+  }
+.reservations{
+  display: flex;
+  flex-direction: column;
+}
+  .text p {
+      font-size: 40px;
+      margin-top: 30%;
+      margin-left: 50%;
+  }
+  .text span{
+    font-size: 30px;
+    margin-left: 30%;
   }
 
   .nav-bar {
-    width: 60%;
-    height: 7vh;
-    gap: 8%;
-    margin-left: 20%;
-    margin-top: -20%;
+      width: 60%;
+      height: 7vh;
+      gap: 8%;
+      margin-left: 20%;
+      margin-top: -250%;
 
   }
 
   .nav-bar a {
-    font-size: 10px;
+      font-size: 10px;
   }
 
   .nav-bar i {
-    font-size: 20px;
-    margin-left: 2%;
+      font-size: 20px;
+      margin-left: 2%;
   }
 
-  .menu-page img {
-    width: 50%;
-    margin-left: 10%;
-    margin-top: 76%;
-    position: fixed;
+  .karibu-section img {
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 10%;
   }
-
-  .nav-links a:not(home, menu, reviews, events, live, contacts) {
+  #home, #menu, #reviews, #events, #live,#contacts{
     display: none;
   }
-
   .whatsapp_icon {
-    margin-left: -15%;
-
-  }
-
-  .social_icons {
-    width: 70px;
-    position: absolute;
-    top: 5vh;
-    left: 95vw;
-    margin-left: -15%;
+      margin-left: -15%;
+      margin-top: -20%;
   }
 
   .nav-bar button {
-    padding: 8px 8px;
+      padding: 8px 8px;
+  }
+
+  .social_icons {
+      width: 70px;
+      position: absolute;
+      top: 5vh;
+      left: 95vw;
+      margin-left: -15%;
   }
 }

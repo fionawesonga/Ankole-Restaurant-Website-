@@ -237,7 +237,8 @@ body {
     height: 7vh;
     gap: 8%;
     margin-left: 20%;
-    margin-top: -20%;
+    position: fixed;
+    margin-top: -23%;
 
   }
 
@@ -256,13 +257,12 @@ body {
     margin-top: 76%;
     position: fixed;
   }
-
-  .nav-links a:not(home, menu, reviews, events, live, contacts) {
+  #home, #menu, #reviews, #events, #live,#contacts{
     display: none;
   }
-
   .whatsapp_icon {
     margin-left: -15%;
+    position: fixed;
 
   }
 

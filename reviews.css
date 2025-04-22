@@ -254,9 +254,9 @@ body {
         margin-top: 10%;
     }
 
-    .nav-links a:not(home, menu, reviews, events, live, contacts) {
+    #home, #menu, #reviews, #events, #live,#contacts{
         display: none;
-    }
+      }
 
     .whatsapp_icon {
         margin-left: -15%;

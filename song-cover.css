@@ -96,3 +96,76 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+@media only screen and (max-width: 430px) {
+    body {
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .text h1 {
+        font-size: 40px;
+        margin-top: 30%;
+        margin-left: 30%;
+    }
+    .text span{
+        font-size: 40px;
+        margin-top: 30%;
+    }
+
+    .nav-bar {
+        width: 60%;
+        height: 7vh;
+        gap: 8%;
+        margin-left: 20%;
+        position: absolute;
+
+    }
+
+    .nav-bar a {
+        font-size: 10px;
+    }
+
+    .nav-bar i {
+        font-size: 20px;
+        margin-left: 2%;
+    }
+
+    .logo img {
+        width: 60%;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    #home, #menu, #reviews, #events, #live,#contacts{
+        display: none;
+      }
+    .whatsapp_icon {
+        margin-left: -15%;
+        margin-top: -20%;
+    }
+
+    .nav-bar button {
+        padding: 8px 8px;
+    }
+
+    .social_icons {
+        width: 70px;
+        position: absolute;
+        top: 5vh;
+        left: 95vw;
+        margin-left: -15%;
+    }
+}
