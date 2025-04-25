@@ -10,14 +10,15 @@ body {
 
 .nav-bar {
   position: absolute;
+  margin-left: 2%;
   margin-top: -7%;
   background-color: rgb(9, 10, 10);
-  width: 50%;
+  width: 45%;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4%;
+  gap: 3%;
   border: none;
   border-radius: 70px;
 }
@@ -38,7 +39,7 @@ body {
   background-color: rgb(115, 115, 115);
   border: none;
   border-radius: 40px;
-  padding: 18px 28px;
+  padding: 17px 25px;
   font-size: 20px;
   color: white;
 
@@ -109,22 +110,30 @@ body {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 360px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  top: -47vh;
+  border: none;
+  border-radius: 30px;
+  top: -50vh;
 }
 
-
 .dropdown-content a {
-  color: black;
+  border: solid 1px grey;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  background-color: black;
 }
 
 .dropdown:hover .dropdown-content {
+  background-color: white;
   display: block;
+}
+.fa-bars:hover{
+  background-color: grey;
+
 }
 
 .reservations-form {

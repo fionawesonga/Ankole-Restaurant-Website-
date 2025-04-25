@@ -3,7 +3,6 @@ body {
 }
 
 .logo img {
-    position: absolute;
     width: 10%;
     margin: 2% 20%;
     color: rgb(92, 84, 77);
@@ -24,6 +23,7 @@ body {
     font-family: typewriter;
     position: relative;
     overflow-x: hidden;
+    display: flex;
 }
 
 .text {
@@ -47,18 +47,12 @@ body {
     color: rgb(179, 66, 21);
     font-size: 70px;
 }
-
+.live-series{
+ position: absolute;
+}
 .acoustic-fadhile {
-    display: flex;
-    gap: 2%;
-    font-family: typewriter;
-    padding: 1%;
-    margin-left: 60%;
-    width: 100%;
-    margin-top: 2%;
-    overflow: hidden;
-    border: none;
-    border-radius: 20px;
+   display: flex;
+   background-color: aqua;
 
 }
 
@@ -87,16 +81,32 @@ body {
     border: none;
     border-radius: 20px;
 }
-
-.acoustic-fadhile img,
-.acoustic-them img,
-.acoustic-jack img {
+.acoustic-image img{
     width: 15%;
-    border: none;
+    border:none;
     border-radius: 20px;
     object-fit: cover;
     transition: transform 0.3s;
-
+    margin-left: 60%;
+    margin-top: 2%;
+}
+.acoustic-image-tm img{
+    width: 15%;
+    border:none;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    margin-left: 60%;
+    margin-top: 9%;
+}
+.acoustic-jack-image img{
+    width: 15%;
+    border:none;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s;
+    margin-left: 60%;
+    margin-top: 9%;
 }
 
 .acoustic-fadhile:hover img,
@@ -105,9 +115,10 @@ body {
     transform: scale(1.5);
 }
 
-
-.acoustic-text {
-    padding: 50px 10px;
+.acoustic-text{
+    width: 20%;
+    margin-left:78%;
+    margin-top: -10%;
 }
 
 .acoustic-text span {
@@ -168,21 +179,30 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 360px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    top: -47vh;
+    border: none;
+    border-radius: 30px;
+    top: -50vh;
 }
 
 .dropdown-content a {
-    color: black;
+    border: solid 1px grey;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    background-color: black;
 }
 
 .dropdown:hover .dropdown-content {
+    background-color: white;
     display: block;
+}
+.fa-bars:hover{
+    background-color: grey;
+
 }
 
 .whatsapp_icon {
