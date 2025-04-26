@@ -75,7 +75,7 @@ body {
   margin: 15% 43%;
   border: solid 1px white;
   width: 25%;
-  height: 45vh;
+  height: 48vh;
   padding-left: 2%;
   color: white;
 }
@@ -201,7 +201,7 @@ body {
     height: 7vh;
     gap: 8%;
     margin-left: 10%;
-    margin-top: -30%;
+    margin-top: 30%;
     position: fixed;
 
   }
