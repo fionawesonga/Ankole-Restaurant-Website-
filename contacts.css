@@ -21,25 +21,25 @@ body {
   position: absolute;
   margin-top: -7%;
   background-color: rgb(9, 10, 10);
-  width: 50%;
-  height: 100px;
+  width: 40%;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4%;
-  margin-left: 23%;
+  margin-left: 28%;
   border: none;
   border-radius: 70px;
 }
 
 .nav-bar i {
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(80, 80, 80);
 }
 
 .nav-bar a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   font-family: poppins;
 }
@@ -48,7 +48,7 @@ body {
   background-color: rgb(115, 115, 115);
   border: none;
   border-radius: 40px;
-  padding: 18px 28px;
+  padding: 16px 25px;
   font-size: 20px;
   color: white;
 
@@ -58,7 +58,7 @@ body {
   position: absolute;
   margin: 15% 20%;
   font-family: typewriter;
-  font-size: 20px;
+  font-size: 18px;
   width: 20%;
   height: 36vh;
   border: solid 1px white;
@@ -71,11 +71,11 @@ body {
 .kilimani-contacts {
   position: absolute;
   font-family: typewriter;
-  font-size: 20px;
+  font-size: 18px;
   margin: 15% 43%;
   border: solid 1px white;
   width: 25%;
-  height: 49vh;
+  height: 45vh;
   padding-left: 2%;
   color: white;
 }
@@ -316,4 +316,87 @@ body{
 
 }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  body{
+      background-size: 100vw 100vh ;
+    margin: 0;
+    height: 100vh;
+  width: 100vw;
+  background-size: cover;
+    overflow: hidden;
+  }
+  .nav-bar {
+    position: absolute;
+    background-color: rgb(9, 10, 10);
+    width: 45%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    border: none;
+    margin-left: 28%;
+    border-radius: 70px;
+    top: 98%;
+  }
+  .kitisuru-contacts,.kilimani-contacts{
+    margin-top: 40%;
+  }
+  .kitisuru-contacts{
+    height: 40vh;
+  }
+  .kilimani-contacts{
+   height:50vh;
+  }
+  .text{
+    margin-top: 67%;
+  }
+  .nav-bar i {
+    font-size: 8px;
+    color: rgb(80, 80, 80);
+  }
+  .text{
+      margin-top: 10%;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    font-size: 8px;
+    color: white;
+    font-family: poppins;
+  }
+  
+  .nav-bar button {
+    background-color: rgb(115, 115, 115);
+    border: none;
+    border-radius: 40px;
+    padding: 5px 8px ;
+    font-size: 7px;
+    color: white;
+  
+  }
+  .social_icons {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: 2vh;
+    margin-left: 50%;
+  }
+  .whatsapp_icon {
+      margin-left: -15%;
+      font-size: 20px;
+      width: 50px;
+      height: 50px;
+      
+  }
+  .social_icons {
+      margin-left: -50%;
+  }
+  .contacts img {
+      width: 20%;
+      margin-top: 8%;
+  }
 
+
+}
+  
+  

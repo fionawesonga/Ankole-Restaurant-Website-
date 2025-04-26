@@ -9,28 +9,28 @@ body {
 }
 
 .nav-bar {
-  position: absolute;
   margin-left: 2%;
   margin-top: -7%;
   background-color: rgb(9, 10, 10);
-  width: 45%;
-  height: 100px;
+  width: 40%;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3%;
   border: none;
+  position: fixed;
   border-radius: 70px;
 }
 
 .nav-bar i {
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(80, 80, 80);
 }
 
 .nav-bar a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   font-family: poppins;
 }
@@ -39,8 +39,8 @@ body {
   background-color: rgb(115, 115, 115);
   border: none;
   border-radius: 40px;
-  padding: 17px 25px;
-  font-size: 20px;
+  padding: 16px 25px;
+  font-size: 15px;
   color: white;
 
 }
@@ -296,3 +296,92 @@ select:focus {
       margin-left: -15%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  body{
+      /* background-size: 100vw 100vh ; */
+    margin: 0;
+    /* height: 100vh; */
+  width: 100vw;
+  background-size: cover;
+    overflow: hidden;
+  }
+  .nav-bar {
+    position: absolute;
+    background-color: rgb(9, 10, 10);
+    width: 45%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    border: none;
+    margin-left: 28%;
+    border-radius: 70px;
+    top: 48%;
+  }
+  
+  .nav-bar i {
+    font-size: 8px;
+    color: rgb(80, 80, 80);
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    font-size: 8px;
+    color: white;
+    font-family: poppins;
+  }
+  
+  .nav-bar button {
+    background-color: rgb(115, 115, 115);
+    border: none;
+    border-radius: 40px;
+    padding: 5px 8px ;
+    font-size: 7px;
+    color: white;
+  
+  }
+  .title h1 {
+      font-size: 600px;
+      margin-top: 30%;
+      margin-left: 30%;
+  }
+  .social_icons {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: 2vh;
+      left: 95vw;
+  }
+  .whatsapp_icon {
+      margin-left: -15%;
+      margin-top: -20%;
+      font-size: 20px;
+      width: 50px;
+      height: 50px;
+      
+  }
+.reservations{
+  display: flex;
+  flex-direction: column;
+}
+.karibu-section{
+  width: 100%;
+}
+  .title h1{
+      font-size: 80px;
+      margin-left: 28%;
+  }
+  .logo img {
+      width: 20vw;
+      margin-left: 40%;
+      margin-top: 9%;
+  
+  }
+  .social_icons {
+      margin-left: -50%;
+  }
+  }
+
+  
+  

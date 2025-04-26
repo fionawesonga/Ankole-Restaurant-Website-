@@ -62,25 +62,25 @@ body {
   position: absolute;
   margin-top: -6%;
   background-color: rgb(9, 10, 10);
-  width: 50%;
-  height: 100px;
+  width: 40%;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4%;
-  margin-left: 23%;
+  margin-left: 29%;
   border: none;
   border-radius: 70px;
 }
 
 .nav-bar i {
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(80, 80, 80);
 }
 
 .nav-bar a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   font-family: poppins;
 }
@@ -89,8 +89,8 @@ body {
   background-color: rgb(115, 115, 115);
   border: none;
   border-radius: 40px;
-  padding: 18px 28px;
-  font-size: 20px;
+  padding: 16px 20px;
+  font-size: 15px;
   color: white;
 
 }
@@ -281,3 +281,80 @@ body {
 .nav-bar button {
   padding: 8px 8px;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  body{
+      background-size: 100vw 100vh ;
+    margin: 0;
+    height: 100vh;
+  width: 100vw;
+  background-size: cover;
+    overflow: hidden;
+  }
+  .nav-bar {
+    position: absolute;
+    background-color: rgb(9, 10, 10);
+    width: 45%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    border: none;
+    margin-left: 28%;
+    border-radius: 70px;
+    top: 88%;
+  }
+  .text{
+    margin-top: 67%;
+  }
+  .nav-bar i {
+    font-size: 8px;
+    color: rgb(80, 80, 80);
+  }
+  .text{
+      margin-top: 10%;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    font-size: 8px;
+    color: white;
+    font-family: poppins;
+  }
+  
+  .nav-bar button {
+    background-color: rgb(115, 115, 115);
+    border: none;
+    border-radius: 40px;
+    padding: 5px 8px ;
+    font-size: 7px;
+    color: white;
+  
+  }
+  .social_icons {
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: 2vh;
+    margin-left: 50%;
+  }
+  .whatsapp_icon {
+      margin-left: -15%;
+      margin-top: -10%;
+      font-size: 20px;
+      width: 50px;
+      height: 50px;
+      
+  }
+  .social_icons {
+      margin-left: -50%;
+  }
+  .logo img {
+      width: 20%;
+      margin-left: 39%;
+      margin-top: 8%;
+  }
+
+
+}
+  
+  

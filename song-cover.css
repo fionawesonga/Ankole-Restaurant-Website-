@@ -37,8 +37,8 @@ body {
     position: absolute;
     margin-top: -54%;
     background-color: rgb(9, 10, 10);
-    width: 50%;
-    height: 100px;
+    width: 40%;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,13 +49,13 @@ body {
 }
 
 .nav-bar i {
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(80, 80, 80);
 }
 
 .nav-bar a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     font-family: poppins;
 }
@@ -64,7 +64,7 @@ body {
     background-color: rgb(115, 115, 115);
     border: none;
     border-radius: 40px;
-    padding: 18px 28px;
+    padding: 16px 20px;
     font-size: 20px;
     color: white;
 
